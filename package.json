@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "hello-world ===========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "static public --port 8085"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crcn/hello-world.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1977863ac23b22daa230b4db21e036f0bcf67767",
+  "dependencies": {
+    "static": "1.0.x"
+  }
+}
