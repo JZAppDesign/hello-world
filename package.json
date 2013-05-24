@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "static public --port 8085"
+    "server": "node server 8081"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   "readmeFilename": "README.md",
   "gitHead": "1977863ac23b22daa230b4db21e036f0bcf67767",
   "dependencies": {
-    "static": "1.0.x"
+    "static": "1.0.x",
+    "express": "3.2.x"
   }
 }
